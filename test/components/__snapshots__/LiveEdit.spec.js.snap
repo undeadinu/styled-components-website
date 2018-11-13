@@ -99,7 +99,7 @@ exports[`LiveEdit renders correctly 1`] = `
 }
 
 <LiveEdit>
-  <ForwardRef
+  <Styled(LiveProvider)
     mountStylesheet={false}
     scope={
       Object {
@@ -116,7 +116,7 @@ exports[`LiveEdit renders correctly 1`] = `
       forwardedClass={
         Object {
           "$$typeof": Symbol(react.forward_ref),
-          "attrs": undefined,
+          "attrs": Array [],
           "componentStyle": ComponentStyle {
             "componentId": "sc-bdVaJa",
             "isStatic": true,
@@ -142,6 +142,7 @@ exports[`LiveEdit renders correctly 1`] = `
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": [Function],
+          "toString": [Function],
           "warnTooManyClasses": [Function],
           "withComponent": [Function],
           Symbol(Symbol.hasInstance): [Function],
@@ -179,12 +180,12 @@ exports[`LiveEdit renders correctly 1`] = `
         <div
           className="react-live c0"
         >
-          <ForwardRef>
+          <styled.div>
             <StyledComponent
               forwardedClass={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
-                  "attrs": undefined,
+                  "attrs": Array [],
                   "componentStyle": ComponentStyle {
                     "componentId": "sc-bwzfXH",
                     "isStatic": true,
@@ -216,6 +217,7 @@ exports[`LiveEdit renders correctly 1`] = `
                   "render": [Function],
                   "styledComponentId": "sc-bwzfXH",
                   "target": "div",
+                  "toString": [Function],
                   "warnTooManyClasses": [Function],
                   "withComponent": [Function],
                 }
@@ -225,12 +227,12 @@ exports[`LiveEdit renders correctly 1`] = `
               <div
                 className="c1"
               >
-                <ForwardRef>
+                <Styled(LiveEditor)>
                   <StyledComponent
                     forwardedClass={
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
-                        "attrs": undefined,
+                        "attrs": Array [],
                         "componentStyle": ComponentStyle {
                           "componentId": "sc-htpNat",
                           "isStatic": true,
@@ -281,6 +283,7 @@ exports[`LiveEdit renders correctly 1`] = `
                         "render": [Function],
                         "styledComponentId": "sc-htpNat",
                         "target": [Function],
+                        "toString": [Function],
                         "warnTooManyClasses": [Function],
                         "withComponent": [Function],
                         Symbol(Symbol.hasInstance): [Function],
@@ -317,13 +320,13 @@ exports[`LiveEdit renders correctly 1`] = `
                       </Editor>
                     </LiveEditor>
                   </StyledComponent>
-                </ForwardRef>
-                <ForwardRef>
+                </Styled(LiveEditor)>
+                <Styled(LivePreview)>
                   <StyledComponent
                     forwardedClass={
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
-                        "attrs": undefined,
+                        "attrs": Array [],
                         "componentStyle": ComponentStyle {
                           "componentId": "sc-bxivhb",
                           "isStatic": true,
@@ -368,6 +371,7 @@ exports[`LiveEdit renders correctly 1`] = `
                         "render": [Function],
                         "styledComponentId": "sc-bxivhb",
                         "target": [Function],
+                        "toString": [Function],
                         "warnTooManyClasses": [Function],
                         "withComponent": [Function],
                         Symbol(Symbol.hasInstance): [Function],
@@ -383,16 +387,16 @@ exports[`LiveEdit renders correctly 1`] = `
                       />
                     </LivePreview>
                   </StyledComponent>
-                </ForwardRef>
+                </Styled(LivePreview)>
               </div>
             </StyledComponent>
-          </ForwardRef>
-          <ForwardRef>
+          </styled.div>
+          <Styled(LiveError)>
             <StyledComponent
               forwardedClass={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
-                  "attrs": undefined,
+                  "attrs": Array [],
                   "componentStyle": ComponentStyle {
                     "componentId": "sc-ifAKCX",
                     "isStatic": true,
@@ -420,6 +424,7 @@ exports[`LiveEdit renders correctly 1`] = `
                   "render": [Function],
                   "styledComponentId": "sc-ifAKCX",
                   "target": [Function],
+                  "toString": [Function],
                   "warnTooManyClasses": [Function],
                   "withComponent": [Function],
                   Symbol(Symbol.hasInstance): [Function],
@@ -439,11 +444,11 @@ exports[`LiveEdit renders correctly 1`] = `
                 </div>
               </LiveError>
             </StyledComponent>
-          </ForwardRef>
+          </Styled(LiveError)>
         </div>
       </LiveProvider>
     </StyledComponent>
-  </ForwardRef>
+  </Styled(LiveProvider)>
 </LiveEdit>
 `;
 
@@ -459,12 +464,12 @@ exports[`StyledError renders correctly 1`] = `
   white-space: pre;
 }
 
-<ForwardRef>
+<Styled(LiveError)>
   <StyledComponent
     forwardedClass={
       Object {
         "$$typeof": Symbol(react.forward_ref),
-        "attrs": undefined,
+        "attrs": Array [],
         "componentStyle": ComponentStyle {
           "componentId": "sc-ifAKCX",
           "isStatic": true,
@@ -492,6 +497,7 @@ exports[`StyledError renders correctly 1`] = `
         "render": [Function],
         "styledComponentId": "sc-ifAKCX",
         "target": [Function],
+        "toString": [Function],
         "warnTooManyClasses": [Function],
         "withComponent": [Function],
         Symbol(Symbol.hasInstance): [Function],
@@ -503,5 +509,5 @@ exports[`StyledError renders correctly 1`] = `
       className="c0"
     />
   </StyledComponent>
-</ForwardRef>
+</Styled(LiveError)>
 `;
